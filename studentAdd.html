@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script src="ajaxhelper.js"></script>
+</head>
+<title>student List</title>
+<link rel="stylesheet" type="text/css" href="css/webAppExercises.css">
+<body>
+	<h1>Add student</h1>
+	<div class = "stu">
+		<form method="POST"  name="formStudent"id="formStudent">
+			<label for="id">ID</label> 
+			<input type="text" id="id" name="id">
+
+			<label for="firstname">First name</label> 
+			<input type="text" id="firstname" name="firstname"> 
+			<label for="lastname">Last name</label> 
+			<input type="text" id="lastname" name="lastname"> 
+			<label for="streetaddress">Street address</label> 
+			<input type="text" id="streetaddress" name="streetaddress"> 
+			<label for="postcode">Post code</label> 
+			<input type="text" id="postcode" name="postcode"> 
+			<label for="postoffice">Post office</label>
+			<input type="text" id="postoffice" name="postoffice">
+			<button type="submit" onClick = "addStudent()" class="button" >Add student</button>
+			<div class= "cancelBtn">
+			<a class="cancel" href ="studentListImproved.html">Back to student list</a>
+			</div>
+		</form>
+	</div>
+	<script src="studentAdd.js"></script>
+
+</body>
